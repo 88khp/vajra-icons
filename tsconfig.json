@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017"],
+    "allowJs": false,
+    "jsx": "react-native",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "baseUrl": "."
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
