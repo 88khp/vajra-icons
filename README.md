@@ -1,5 +1,7 @@
 # @devraj-labs/vajra-ui-icons
 
+[**Documentation**](https://devraj-labs.github.io/vajra-ui-icons/)
+
 Lucide icon adapters for [Vajra UI](https://github.com/devraj-labs/vajra-ui)'s icon component
 contract (`IconButton`, `IconBox`, `IconSwitch`, `Badge`, `Checkbox`, `Accordion`, `Alert`, `Chip`,
 `Select`, and anywhere else a `TVajraIconComponent` is accepted).
