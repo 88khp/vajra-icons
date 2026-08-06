@@ -1485,10 +1485,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/utilities/-/utilities-2.0.0.tgz#f7ff0fee38c9ffb5646d47b6906e0bc8868bde60"
   integrity sha512-5VdOr0Z71u+Yp3ozOx8T11N703wIFGVRgOWbOZMKgglPJsWA54MRIoMNVMa7shUToIhx5J8vX4sOZgD2XiihiQ==
 
-"@devraj-labs/vajra-ui-icons@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@devraj-labs/vajra-ui-icons/-/vajra-ui-icons-0.1.0.tgz#1639fc0795202f565de0ae82fbb403fc1abdaa01"
-  integrity sha512-S2qkYMPfvXKTDtcJIIiD/ZoCbpmAVIutQ3z7zhUM0p/yyE0TY3HBfdKfpPJ8Y97IldpCdc/R+LqQExi5ROQgEQ==
+"@devraj-labs/vajra-ui-icons@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@devraj-labs/vajra-ui-icons/-/vajra-ui-icons-0.2.0.tgz#8bb20f7a48413ef7a0a79edc1d806fd29306f140"
+  integrity sha512-ct4skMW2bZd7g2SneHLAPiL9/GSxPp48KyYvvmfYL/cfQ0TjId8pszLGdNmROrjKdY6SG06h1zt4q3KF76q3aA==
 
 "@discoveryjs/json-ext@0.5.7":
   version "0.5.7"
