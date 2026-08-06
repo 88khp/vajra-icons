@@ -1,6 +1,6 @@
 {
   "name": "@devraj-labs/vajra-ui-icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lucide icon adapters for Vajra UI's icon component contract",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
