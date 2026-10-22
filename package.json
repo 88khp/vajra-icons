@@ -1,5 +1,5 @@
 {
-  "name": "@devraj-labs/vajra-ui-icons",
+  "name": "@88khp/vajra-icons",
   "version": "0.2.0",
   "description": "Lucide icon adapters for Vajra UI's icon component contract",
   "main": "dist/index.js",
@@ -37,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devraj-labs/vajra-ui-icons.git"
+    "url": "https://github.com/88khp/vajra-ui-icons.git"
   },
-  "homepage": "https://github.com/devraj-labs/vajra-ui-icons#readme",
+  "homepage": "https://github.com/88khp/vajra-ui-icons#readme",
   "license": "MIT",
   "peerDependencies": {
     "lucide-react-native": ">=1.0.0",

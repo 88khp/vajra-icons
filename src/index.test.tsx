@@ -27,7 +27,7 @@ import {
 } from './index';
 import * as VajraIcons from './index';
 
-describe('vajra-ui-icons barrel', () => {
+describe('vajra-icons barrel', () => {
   it('exports exactly the documented set of icon components, each renderable', () => {
     const icons = {
       AlertCircleIcon,

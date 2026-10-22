@@ -6,7 +6,7 @@
 # ESM output declared under a CJS "main"/"exports" — a real bug this repo
 # hit) and typechecks a real import against it.
 #
-# Doesn't require('@devraj-labs/vajra-ui-icons') directly: that pulls in the
+# Doesn't require('@88khp/vajra-icons') directly: that pulls in the
 # real react-native package, which ships Flow syntax plain Node can't parse
 # outside Metro/Babel — unrelated to whether *our* dist/ output is valid CJS.
 set -euo pipefail
@@ -27,7 +27,7 @@ node -e "
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
-const distIndex = path.join('node_modules', '@devraj-labs', 'vajra-ui-icons', 'dist', 'index.js');
+const distIndex = path.join('node_modules', '@88khp', 'vajra-icons', 'dist', 'index.js');
 const source = fs.readFileSync(distIndex, 'utf8');
 // Wrapping in the CJS module wrapper and only *compiling* (not running) it
 // confirms the file is valid CommonJS syntax without executing require()
@@ -53,7 +53,7 @@ cat > tsconfig.json <<'EOF'
 EOF
 
 cat > verify.tsx <<'EOF'
-import { BellIcon, wrapLucideIcon, TVajraIconComponent } from '@devraj-labs/vajra-ui-icons';
+import { BellIcon, wrapLucideIcon, TVajraIconComponent } from '@88khp/vajra-icons';
 
 const icon: TVajraIconComponent = BellIcon;
 const wrapped = wrapLucideIcon;
