@@ -13,7 +13,7 @@ export default function IconGrid(): React.ReactElement {
     <BrowserOnly fallback={<div className={styles.grid} />}>
       {() => {
         // eslint-disable-next-line @typescript-eslint/no-var-requires
-        const icons = require('@devraj-labs/vajra-ui-icons');
+        const icons = require('@88khp/vajra-icons');
 
         const entries = Object.keys(icons)
           .filter((key) => key.endsWith('Icon'))

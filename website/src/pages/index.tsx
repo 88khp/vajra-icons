@@ -35,7 +35,7 @@ export default function Home(): React.ReactElement {
 
           <Heading as="h2">Install</Heading>
           <CodeBlock language="bash">
-            npm install @devraj-labs/vajra-ui-icons lucide-react-native react-native-svg
+            npm install @88khp/vajra-icons lucide-react-native react-native-svg
           </CodeBlock>
           <p>
             <code>lucide-react-native</code> and <code>react-native-svg</code> are peer
@@ -45,7 +45,7 @@ export default function Home(): React.ReactElement {
           <Heading as="h2">Usage</Heading>
           <CodeBlock language="tsx">
             {`import { IconButton } from 'vajra-ui';
-import { BellIcon } from '@devraj-labs/vajra-ui-icons';
+import { BellIcon } from '@88khp/vajra-icons';
 
 <IconButton icon={BellIcon} onPress={() => {}} />;`}
           </CodeBlock>
@@ -60,7 +60,7 @@ import { BellIcon } from '@devraj-labs/vajra-ui-icons';
             helper:
           </p>
           <CodeBlock language="tsx">
-            {`import { wrapLucideIcon } from '@devraj-labs/vajra-ui-icons';
+            {`import { wrapLucideIcon } from '@88khp/vajra-icons';
 import { Trash2 } from 'lucide-react-native';
 
 const TrashIcon = wrapLucideIcon(Trash2);`}

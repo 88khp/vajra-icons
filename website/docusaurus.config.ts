@@ -18,11 +18,11 @@ const config: Config = {
     faster: false,
   },
 
-  url: 'https://devraj-labs.github.io',
-  baseUrl: '/vajra-ui-icons/',
+  url: 'https://88khp.github.io',
+  baseUrl: '/vajra-icons/',
 
-  organizationName: 'devraj-labs',
-  projectName: 'vajra-ui-icons',
+  organizationName: '88khp',
+  projectName: 'vajra-icons',
 
   onBrokenLinks: 'throw',
 
@@ -58,12 +58,12 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/devraj-labs/vajra-ui-icons',
+          href: 'https://github.com/88khp/vajra-icons',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://www.npmjs.com/package/@devraj-labs/vajra-ui-icons',
+          href: 'https://www.npmjs.com/package/@88khp/vajra-icons',
           label: 'npm',
           position: 'right',
         },
@@ -77,15 +77,15 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/devraj-labs/vajra-ui-icons',
+              href: 'https://github.com/88khp/vajra-icons',
             },
             {
               label: 'npm',
-              href: 'https://www.npmjs.com/package/@devraj-labs/vajra-ui-icons',
+              href: 'https://www.npmjs.com/package/@88khp/vajra-icons',
             },
             {
               label: 'Changelog',
-              href: 'https://github.com/devraj-labs/vajra-ui-icons/blob/main/CHANGELOG.md',
+              href: 'https://github.com/88khp/vajra-icons/blob/main/CHANGELOG.md',
             },
           ],
         },
@@ -94,16 +94,16 @@ const config: Config = {
           items: [
             {
               label: 'Vajra UI (styled)',
-              href: 'https://www.npmjs.com/package/@devraj-labs/vajra-ui',
+              href: 'https://www.npmjs.com/package/@88khp/vajra-ui',
             },
             {
               label: 'Vajra UI Core (headless)',
-              href: 'https://www.npmjs.com/package/@devraj-labs/vajra-ui-core',
+              href: 'https://www.npmjs.com/package/@88khp/vajra-core',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Devraj Labs. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 88khp. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
