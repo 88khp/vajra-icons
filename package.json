@@ -37,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/88khp/vajra-ui-icons.git"
+    "url": "https://github.com/88khp/vajra-icons.git"
   },
-  "homepage": "https://github.com/88khp/vajra-ui-icons#readme",
+  "homepage": "https://github.com/88khp/vajra-icons#readme",
   "license": "MIT",
   "peerDependencies": {
     "lucide-react-native": ">=1.0.0",

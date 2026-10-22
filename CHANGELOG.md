@@ -5,7 +5,7 @@
 ### Changed
 
 - **Breaking:** the package is renamed to `@88khp/vajra-icons`. Install it under the new name and update every import. The icons and `wrapLucideIcon` are unchanged.
-- The docs site moved to `88khp.github.io/vajra-ui-icons`, and links point at `@88khp/vajra-ui` and `@88khp/vajra-core`.
+- The docs site moved to `88khp.github.io/vajra-icons`, and links point at `@88khp/vajra-ui` and `@88khp/vajra-core`.
 
 ## [0.2.0] - 2026-08-06
 

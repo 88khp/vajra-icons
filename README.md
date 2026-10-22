@@ -1,6 +1,6 @@
 # @88khp/vajra-icons
 
-[**Documentation**](https://88khp.github.io/vajra-ui-icons/)
+[**Documentation**](https://88khp.github.io/vajra-icons/)
 
 Lucide icon adapters for [Vajra UI](https://github.com/88khp/vajra-ui)'s icon component
 contract (`IconButton`, `IconBox`, `IconSwitch`, `Badge`, `Checkbox`, `Accordion`, `Alert`, `Chip`,
