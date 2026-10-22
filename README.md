@@ -15,20 +15,23 @@ forcing Lucide on anyone who wants to bring their own icons instead.
 
 ### Why use it
 
-- You use `@88khp/vajra-ui` and want icons that work with its icon props straight away.
-- You want Lucide icons without writing an adapter for each one.
+- You use `@88khp/vajra-ui` and want its prebuilt components, such as `IconButton`, `Badge`, `Checkbox`, `Alert` and `Select`, to show proper icons.
+- You want those icons without writing an adapter for each one.
 
 ### The problem it solves
 
-Vajra UI components take a plain icon component with `size`, `width`, `height` and `color`. Wiring a Lucide icon to that contract means writing the same adapter for every icon. This package does it once for a curated set.
+Vajra UI's prebuilt components take an icon component as a prop. With no icons they look bare, and with an icon set that doesn't match the design they look off. This package provides a matching set of Lucide icons through the contract those components expect, so they look right out of the box.
+
+It is optional. `@88khp/vajra-ui` has no dependency on it, so apps that don't install it still work. Those apps pass their own icon components to the same props.
 
 ### Who it's not for
 
-- Apps that don't use Vajra UI. The adapters target its icon contract.
-- Teams that want an icon set other than Lucide. Bring your own icon components instead.
+- Apps that don't use `@88khp/vajra-ui`.
+- Teams that want a different icon set. Pass your own icon components to the components instead.
 
 ### What it doesn't do
 
+- It isn't a dependency of `@88khp/vajra-ui`. It's an optional peer, so the design system works without it.
 - It doesn't include the full Lucide library. It exports a curated set.
 - It doesn't bundle `lucide-react-native` or `react-native-svg`. Both are peer dependencies, so you control their versions.
 
