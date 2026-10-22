@@ -1,6 +1,6 @@
 {
   "name": "@88khp/vajra-icons",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lucide icon adapters for Vajra UI's icon component contract",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
